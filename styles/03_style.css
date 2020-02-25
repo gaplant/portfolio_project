@@ -1,0 +1,120 @@
+#fixhead{
+ background-color: skyblue;
+ width: 100%; 
+ height: 100px;
+ position: fixed;
+ top: 0;
+ color: black;  
+ z-index: 99;
+  
+}
+
+#logo{
+ padding: 9px;
+ background-color: #fc6868;
+ width: 100px;
+ height:100px; 
+ color: white;
+ font-weight:bold;
+ text-align: center;
+ position: fixed;
+ border-radius: 50px;
+ top: 50px;
+ left: 15px; 
+ z-index: 100; 
+}
+
+#heading{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 72px;
+  font-weight: bold;
+  
+}
+
+#blocktext{
+
+  margin-left: 10px;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: italic;
+}
+
+#footblock{
+  z-index: 100; 
+  bottom: 5%;
+  right: 5%;
+  background-color: skyblue;
+  color: white;
+  font-size: 60px;
+  position: fixed;
+  height: 75px;
+  width: 75px;
+  z-index: 98; 
+  border-radius: 70px;
+  line-height: 65px;
+  margin:auto;
+  text-align: center;
+  
+  
+}
+
+#foot{
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float:left;
+  bottom: 0;
+  font-size: 11px;
+  font-style: italic;
+}
+
+#containerPer{
+  background-color: grey;
+  height: 260px;
+  top: 20px;
+}
+
+#containerPix{
+  background-color: grey;
+  height: 260px;
+  top: 20px;
+}
+
+#containerOther{
+  float: left;
+  display: block;
+}
+
+.boxOther{
+  font-size: 24px;
+  background-color: #CFD8DC;
+  width: 200px;
+  height: 141px;
+  display: block;
+  margin: 18px;
+  text-align:  center;
+  padding: 35px;
+}
+
+.boxPer{
+  font-size: 30px;
+  background-color: #fc6868;
+  width: 25%;
+  height: 200px;
+  margin: 18px;
+  text-align:  center;
+  padding: 50px;
+  float: left;
+}  
+
+.boxPix{
+  font-size: 30px;
+  background-color: #fc6868;
+  width: 392px;
+  height: 200px;
+  float: left;
+  margin: 18px;
+  text-align:  center;
+  padding: 50px;
+}

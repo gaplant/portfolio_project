@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.btn, .btn-primary:hover, .btn-lg{
+  background-color: #FF5252;
+  border-color: #EF5350;
+}
+
+.btn-primary:hover{
+  background-color: #c43f3f;
+  border-color: #EF5350;
+}
+
+.headimage{
+  height: 200px;
+  width: 600px;
+  border-radius: px;
+  position: fixed;
+  top: 35px;
+}
+
+.navbar-brand{
+  position:fixed;
+  font-family: Poppins;
+  top: 7px;
+}
+
+.nav-item, .active{
+  position:relative;
+  left: 33%; 
+}
+
+.dropdown-menu, .dropdown-item{
+  left:3%;
+  top:113%;
+  background-color: #353A40;
+  color: white; 
+  border-radius: 0px;
+}
+
+.content{
+  margin-left: 390px;
+}
+
+.floatcontent{
+  margin-top: 70px;
+  float:left;
+  width: 50%;
+  display:block;
+}
+
+#resources{ 
+  margin:auto;
+  width: 500px;
+  height: 250px;
+  margin-top:15px;
+  margin-bottom:35px;
+  font-family: Poppins;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color:lightgrey;
+}
+
+#devlinks{
+  margin-top: 50px;
+  margin:auto;
+}
+
+#foot{
+  clear: left;
+  font-family: Poppins;
+  font-size: 15px;
+}
+
+#abt_head{
+  font-size: 50px;
+}
+
+#abt_text{
+  margin-top: 50px;
+  font-size:17px;
+  margin-left: 475px;
+  
+}
+
+.aboutimgs{
+  height: 250px;
+  width: 250px;
+  float: right;
+  display: block;
+  border-radius: 40px;
+  filter: grayscale(100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.display-3{
+  margin-top: 40px;
+}
+
+.align-mid{
+  text-align: center;
+}
+
+.table-pad{
+  padding-left:15px;
+}
+
+th{
+  font-size:25px;
+}
+
+.card{
+  font-family: Poppins;	
+  height: 500px;
+}
+
+.card-img-top{
+  margin-left: 5%;
+  height:300px;
+  width:300px;
+}
+
+.jumbotron{
+  background-image: url("https://background-tiles.com/overview/white/textures/large/5023.png");
+  background-repeat: repeat;
+}
+
+#row2{
+  margin-top: 30px;
+}	
+
+#jumbotext{
+	font-family: Poppins;
+}	
